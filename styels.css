@@ -1,0 +1,13 @@
+body{
+    text-align: right;
+    direction: rtl;
+}
+.no-lines a{
+    text-decoration: none;
+}
+.no-lines a:hover{
+    text-decoration: underline;
+}  
+.box{
+    border: 1px black solid;
+} 
