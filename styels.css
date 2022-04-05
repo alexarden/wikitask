@@ -2,12 +2,45 @@ body{
     text-align: right;
     direction: rtl;
 }
+
+.box{
+    border: 1px black solid;
+} 
+.block{
+    display: block;  
+ }  
+
+.center{
+    text-align: center;
+}
+
+.fright{
+    float: right;
+}
+.fleft{
+    float: left;
+}
+
+.linklist{
+    max-width:19%;
+    min-width: 150px;
+}
+.middle{
+    margin: auto;
+}
 .no-lines a{
     text-decoration: none;
 }
 .no-lines a:hover{
     text-decoration: underline;
 }  
-.box{
-    border: 1px black solid;
-} 
+.narrow{
+    max-width: 800px;
+}
+.photo{
+    margin-left: 5px;
+    margin-right: 5px;
+}  
+.phototext{
+    max-width: 100px;
+}
