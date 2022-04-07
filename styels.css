@@ -45,12 +45,24 @@ div.middle nav{
     margin-bottom: 100px;
     flex-wrap: wrap;
 }
+.flex-top-2{
+    margin-right: -350px;
+    margin-top: 30px;
+}
+.flex-top-3{
+    font-size: 30px;
+}
+.flex-top-3 .one{
+    font-size: 30px;
+    margin: 10px 25px;
+}
 .flex-item{
     margin: 40px;
 }
 .fix-photo{
     margin-left: 170px;
 }
+
 .fright{
     float: right;
 }
@@ -63,7 +75,7 @@ div.middle nav{
 
 }
 .gray{
-    background-color: rgb(223, 223, 223);
+    background-color: rgb(239, 236, 236);
     
 }
 header{
@@ -76,9 +88,10 @@ header{
     float: left;
     left: 70px;
     max-width: 385px;
-    border: 1px solid rgb(81, 80, 80);
+    border: 1px solid rgb(230, 227, 227);
     margin: 10px;
     border-radius: 2px;
+    background-color: rgb(239, 236, 236);
 }    
    
 .linklist{
@@ -121,3 +134,26 @@ header{
     width: 500px;
     height: 25px;
 }
+div table tr td span{
+    margin: 10px 50px ;
+
+}
+div table tr td span.fix{
+    margin:  65px ;
+
+}div table tr td span.fix-1{
+    margin: 10px 80px ;
+
+}
+div table tr td span.fix-2{
+    display: inline-block;
+    margin-bottom: 35px;
+}
+div table tr td span.fix-3{
+    display: inline-block;
+    margin-top: 25px;
+    
+}
+
+
+
