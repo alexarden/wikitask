@@ -12,33 +12,43 @@
 <body>
 
     <header class="no-lines">
-        <input class="middle" type="text" placeholder="חיפוש בויקיפדיה">
-        <img class="fright" src="img/Wikipedia-puzzleglobe-V2_left.png" alt="wikipedia symbol" height="50px">
-        <img class="fright" src="img/Screenshot_2.png" alt="writen inside an image wikipedia the free encyclopedia"
-            height="50px">
-        <a href="#" class="fleft">...</a>
-        <a href="#" class="fleft">יצירת חשבון</a>
+        <div class="flex-top-1">
+            <img class="fright" src="img/Wikipedia-puzzleglobe-V2_left.png" alt="wikipedia symbol" height="50px">
+            <img class="fright" src="img/Screenshot_2.png" alt="writen inside an image wikipedia the free encyclopedia"
+                height="50px">
+        </div>
+         <div class="flex-top-2">
+            <input  class="middle top-input" type="text" placeholder="חיפוש בויקיפדיה">
+        </div>
+        <div class="flex-top-3">
+            <a href="#" class="fleft">...</a>
+            <a href="#" class="fleft">יצירת חשבון</a>
+        </div>
     </header>
 
-    
 
-     <!-- ממתין לכתיבה -->
+
+    <!-- ממתין לכתיבה -->
     <nav class="vertical no-lines"></nav>
 
-    <nav class="horizontal no-lines block">
+    <div class="middle">  
+      <nav class="horizontal no-lines block middle flex-container">    
         <a href="#">עמוד ראשי</a>
         <a href="#">שיחה</a>
         <a href="#">קריאה</a>
         <a href="#">הצגת מקור</a>
         <a href="#">גרסאות קודמות</a>
-    </nav>
+      </nav>
+   </div>
 
     <div>
         <label for="login">משתמש</label>
         <input type="radio" name="login">
         <label for="login">מבקר</label>
         <input type="radio" name="login">
-    </div>  
+    </div>
+
+    <!-- comment מפה מתחיל תוכן הדף        -->
 
 
     <main class="narrow middle">
@@ -54,74 +64,162 @@
 
             <hr>
 
-            <img src="img/value-new.png" alt="value sign">
+            <img class="value-png" src="img/value-new.png" alt="value sign">
             <span>ערך זה עוסק בעץ ובפרי התפוח. אם התכוונתם למשמעות אחרת, ראו תפוח (פירושונים).</span>
 
             <p>תַּפּוּחַ תַּרְבּוּתִי (מכונה גם תפוח-עץ או בקיצור תפוח, <a href="#">שם מדעי</a>: Malus domestica) הוא <a
                     href="#">מין</a> של עץ <a href="#">פרי</a> נשיר במשפחת <a href="#">הוורדיים</a>.
         </div>
 
-        <div class="no-lines box linklist">
-            <p class="center"> תוכן עיניינים [ הסתרה ]</p>
-            <ol>
-                <a href="#1">
-                    <li>מקור התפוח התרבותי</li>
-                </a>
-                <a href="#2">
-                    <li>זני תפוחים מתורבתים</li>
-                </a>
-                <a href="#3">
-                    <li>ערך תזונתי</li>
-                </a>
-                <a href="#4">
-                    <li>גידול תפוחים</li>
-                </a>
-                <a href="#5">
-                    <li>התפוח בתרבות</li>
-                </a>
-                <a href="#6">
-                    <li>התפוח ביהדות
-                        <ol>
-                            <a href="#6.1">
-                                <li>6 בלילי שבתות</li>
-                            </a>
-                        </ol>
-                    </li>
-                </a>
+        <!-- comment מודעת מידע צפה צד שמאל        -->
+        <div>
+            <div class="info-table">
+                <table>
+                    <tr>
+                        <th class="table-title">תפוח</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <img src="img/img-side-info/side-apple1.png" alt="red apple">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">מיון מדעי</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>ממלכה:</span>
+                            <span>צמחים</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>מערכה:</span>
+                            <span>בעלי פרחים</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>מחלקה:</span>
+                            <span>דו-פסיגיים</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>סדרה:</span>
+                            <span>ורדנאיים</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>משפחה:</span>
+                            <span>ורדיים</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>סוג:</span>
+                            <span>תפוח</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="table-title">שם מדעי</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span> Malus domestica </span>
+                            <span><img src="img/img-side-info/side-info-icon.png" alt="wikiicon"></span>
+                        </td>
 
-                <a href="#7">
-                    <li>שימושים</li>
-                </a>
-                <a href="#8">
-                    <li>גלריה</li>
-                </a>
-                <a href="#9">
-                    <li>ראו גם</li>
-                </a>
-                <a href="#">
-                    <li>קישורים חיצוניים</li>
-                </a>
-                <a href="#10">
-                    <li>הערות שוליים</li>
-                </a>
-            </ol>
+                    </tr>
 
+                </table>
+            </div>
+            <div class="no-lines box linklist content-box">
+                <p class="center"> תוכן עיניינים [ הסתרה ]</p>
+                <ol>
+                    <a href="#1">
+                        <li>מקור התפוח התרבותי</li>
+                    </a>
+                    <a href="#2">
+                        <li>זני תפוחים מתורבתים</li>
+                    </a>
+                    <a href="#3">
+                        <li>ערך תזונתי</li>
+                    </a>
+                    <a href="#4">
+                        <li>גידול תפוחים</li>
+                    </a>
+                    <a href="#5">
+                        <li>התפוח בתרבות</li>
+                    </a>
+                    <a href="#6">
+                        <li>התפוח ביהדות
+                            <ol>
+                                <a href="#6.1">
+                                    <li>6 בלילי שבתות</li>
+                                </a>
+                            </ol>
+                        </li>
+                    </a>
+
+                    <a href="#7">
+                        <li>שימושים</li>
+                    </a>
+                    <a href="#8">
+                        <li>גלריה</li>
+                    </a>
+                    <a href="#9">
+                        <li>ראו גם</li>
+                    </a>
+                    <a href="#">
+                        <li>קישורים חיצוניים</li>
+                    </a>
+                    <a href="#10">
+                        <li>הערות שוליים</li>
+                    </a>
+                </ol>
+
+            </div>
         </div>
+        <div class="content-photo">
+            <div class="seperate"></div>
 
-        <div class="no-lines">
+            <div class="no-lines content-photo-1 fix-photo">
 
-            <h2 id="1">מקור התפוח התרבותי [<a href="#"><span>עריכת קוד מקור</span></a> | <a href="#"><span>עריכה</span></a>]
-            </h2>
+                <h2 id="1">מקור התפוח התרבותי [<a href="#"><span>עריכת קוד מקור</span></a> | <a
+                        href="#"><span>עריכה</span></a>]
+                </h2>
 
-            <p>מקורו של התפוח התרבותי <a href="#">במין הבר</a> Malus sieversii, המגיע ממרכז <a href="#">אסיה</a> וגדל גם
-                כיום ב<a href="#">הרים</a> ב<a href="#">דרום</a> <a href="#">קזחסטן</a>, <a href="#">בקירגיזסטן</a>, <a
-                    href="#">בטג'יקיסטן</a> ובמחוז <a href="#">שינגיאנג</a> ב<a href="#">סין</a>. מינים אחרים שככל הנראה
-                קשורים בהתפתחות התפוח התרבותי הם Malus baccata ו-Malus sylvestris. מיני תפוח נוספים משמשים כיום
-                בניסיונות לפתח זני תפוחים שיהיו מסוגלים לגדול בתנאי <a href="#">אקלים</a> שונים.
+                <p>מקורו של התפוח התרבותי <a href="#">במין הבר</a> Malus sieversii, המגיע ממרכז <a href="#">אסיה</a>
+                    וגדל גם
+                    כיום ב<a href="#">הרים</a> ב<a href="#">דרום</a> <a href="#">קזחסטן</a>, <a href="#">בקירגיזסטן</a>,
+                    <a href="#">בטג'יקיסטן</a> ובמחוז <a href="#">שינגיאנג</a> ב<a href="#">סין</a>. מינים אחרים שככל
+                    הנראה
+                    קשורים בהתפתחות התפוח התרבותי הם Malus baccata ו-Malus sylvestris. מיני תפוח נוספים משמשים כיום
+                    בניסיונות לפתח זני תפוחים שיהיו מסוגלים לגדול בתנאי <a href="#">אקלים</a> שונים.
 
-                התפוח הוא מרכיב מרכזי בתפריט באזורים רבים שבהם שורר <a href="#">אקלים</a> קר והוא ככל הנראה אחד העצים
-                הראשונים <a href="#">שבויתו</a> על ידי האדם.</p>
+                    התפוח הוא מרכיב מרכזי בתפריט באזורים רבים שבהם שורר <a href="#">אקלים</a> קר והוא ככל הנראה אחד
+                    העצים
+                    הראשונים <a href="#">שבויתו</a> על ידי האדם.
+                </p>
 
+            </div>
+
+
+            <div class="content-photo-1 box gray">
+                <table>
+                    <tr>
+                        <td><img src="img/img-side-info/side-appleTree.png " width="294px" alt="apple tree"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span>עץ תפוחי </span>
+                            <span><a style="color:red; text-decoration: none;" href="#">האני-קריספ</a></span>
+                        </td>
+                    </tr>
+                </table>
+            </div>
         </div>
 
         <div class="no-lines">
@@ -130,7 +228,7 @@
 
             <hr>
 
-            <p><img src="img/value-new.png" alt="value sign">
+            <p><img class="value-png" src="img/value-new.png" alt="value sign">
 
                 המונח "דלישס" מפנה לכאן. לערך העוסק באתר אינטרנט, ראו <a herf="#">דלישס (אתר אינטרנט).</a></p>
 
@@ -143,7 +241,9 @@
             <!-- זאת טבלה -->
             <table class="box narrow">
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Red_Delicious.jpg"><img src="img/apple1.png" alt="Red Delicious Apple" width="100px"></a></td>  
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Red_Delicious.jpg"><img
+                                src="img/apple1.png" alt="Red Delicious Apple" width="100px"></a></td>
                     <td class="box">רד דלישס (Red Delicious): תפוח <a href="#">אדום</a>, כיום הנמכר ביותר בעולם. גודלו
                         בינוני. טעמו מתוק, בשרו רך יחסית. קליפתו אדומה כהה ועליה פסים ארגמניים, עם חמש נקודות בולטות
                         בתחתיתו. כמו תפוחים רבים אחרים, מקור הזן ב<a href="#">זריעה</a> מקרית בשנת <a href="#">1870</a>
@@ -152,7 +252,9 @@
                         במורדות החרמון) והוא גדל בגליל העליון, בגולן, ובגוש עציון.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Golden_delicious_apple.jpg"><img src="img/apple2.png" alt="Golden Delicious Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Golden_delicious_apple.jpg"><img
+                                src="img/apple2.png" alt="Golden Delicious Apple" width="100px"></a></td>
                     <td class="box">גולדן דלישס (Golden Delicious): תפוח <a href="#">צהוב</a>, קרוב מאוד לזן רד דלישס.
                         טעמו מתוק והוא משמש לסלטי פירות, <a href="#">מחית</a> פרי ולאכילה טרי. קליפתו צהובה בהירה ועליה
                         נקודות עדינות. נוצר מזריעה מקרית, ומפרה לעצמו (אינו דורש עצים סמוכים על מנת להניב פרי). העץ
@@ -162,7 +264,9 @@
                         וגולדן דלישס שניהם נקנו על ידי משתלת סטארק, ששיווקה אותם בהצלחה רבה יחדיו.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Granny_Smith_Apple_02.JPG"><img src="img/apple3.png" alt="Granny Smith Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Granny_Smith_Apple_02.JPG"><img
+                                src="img/apple3.png" alt="Granny Smith Apple" width="100px"></a></td>
                     <td class="box">גרני סמית (Granny Smith): תפוח <a href="#">ירוק</a> בגוון חזק, נוצר לראשונה בחצרה של
                         <a href="#">מריה</a> סמית, אישה <a href="#">אוסטרלית</a> שניהלה חווה ביישוב <a
                             href="#">איסטווד</a> הסמוך ל<a href="#">סידני</a> בשנת <a href="#">1867</a>. סמית זרקה
@@ -173,37 +277,48 @@
                     </td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Apfel_Gala.jpg"><img src="img/apple4.png" alt="Gala Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Apfel_Gala.jpg"><img
+                                src="img/apple4.png" alt="Gala Apple" width="100px"></a></td>
                     <td class="box">גאלה (Gala): תפוח <a href="#">אדום</a> עם כתמים צהובים, מתוק ובעל ארומה, בינוני
                         בגודלו. בשרו רך ונוטה לקמחיות, קליפתו מעט מחוספסת ולעיתים זרועה נקודות. ידוע גם בשם תפוח דבש.
                         נוצר לראשונה ב<a href="#">נות העשרים</a> בניו זילנד על ידי הבוטנאי <a href="#">ג'.ה קיד</a>
                         (J.H. Kidd). קיים זן משנה הקרוי רויאל גאלה, שצבעו ורוד וטעמו עדין יותר.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Deutsche_Pomologie_-_Aepfel_-_016.jpg"><img src="img/apple5.png" alt="Grand Alexander Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Deutsche_Pomologie_-_Aepfel_-_016.jpg"><img
+                                src="img/apple5.png" alt="Grand Alexander Apple" width="100px"></a></td>
                     <td class="box">רנד אלכסנדר (Grand Alexander): תפוח <a href="#">אדום</a>-<a href="#">ירוק</a>,
                         בכתמים המשתלבים אלו באלו. טעם מתוק, גדול מאוד. מקורו בצרפת. אינו מתפורר באפיה.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://www.fruit.co.il/product/malus-domestica/"><img src="img/apple6.png" alt="Orleans Apple" width="100px"></a></td>
+                    <td class="box"><a href="https://www.fruit.co.il/product/malus-domestica/"><img src="img/apple6.png"
+                                alt="Orleans Apple" width="100px"></a></td>
                     <td class="box">אורליאנס (Orleans): תפוח <a href="#">אדום</a>, זן שנפוץ בישראל יותר מאשר בשווקים
                         העולמיים. גדול ובעל מתיקות עדינה.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Fuji_apple.jpg"><img src="img/apple7.png" alt="Fuji Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Fuji_apple.jpg"><img
+                                src="img/apple7.png" alt="Fuji Apple" width="100px"></a></td>
                     <td class="box">פוג'י (Fuji): תפוח <a href="#">אדום</a>, גדול מאוד. קליפה חלקה עם פסים בגווני אדום
                         בהיר. שילוב של תפוח דלישס אדום ותפוח רולס גנט (Ralls Genet). מגודל באופן מסחרי ב<a
                             href="#">סין</a> ו<a href="#">יפן</a>, ובעל חיי מדף ארוכים גם ללא קירור. במצעד המכירות ב<a
                             href="#">ארצות הברית</a>, מגיע הפוג'י למקום רביעי אחרי הדלישס, הגולדן דלישס והגאלה.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Malus-Jonathan.jpg"><img src="img/apple8.png" alt="Jonathan Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Malus-Jonathan.jpg"><img
+                                src="img/apple8.png" alt="Jonathan Apple" width="100px"></a></td>
                     <td class="box">יונתן (Jonathan): תפוח <a href="#">אדום</a> <a href="#">צהוב</a>, קטן-בינוני. קליפה
                         חלקה וקשה. נוצר בשנת <a href="#">1826</a> על ידי <a href="#">פיליפ ריק</a> (Philip Rick) <a
                             href="#">מוודסטוק</a>, <a href="#">ניו יורק</a>. טעמו מתוק חמצמץ.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Anna_Apple.jpg"><img src="img/apple9.png" alt="Anna Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Anna_Apple.jpg"><img
+                                src="img/apple9.png" alt="Anna Apple" width="100px"></a></td>
                     <td class="box">ענה (Anna): זן שפותח בישראל על ידי הכלאת שני זני תפוחים, על ידי <a href="#">אבא
                             שטיין</a>, חבר קיבוץ <a href="#">עין שמר</a>, מבשיל מהר יחסית, כבר בסביבות חודש <a
                             href="#">יוני</a>. כיום הוא אחד מזני הייצוא המובילים של <a href="#">מצרים</a>. ייחודו של
@@ -214,14 +329,18 @@
                         מזן אחר הפורח באותה תקופה בסמוך.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:McIntosh_with_sticker_by_Lars_Zapf_2006-03-30_cropped.jpg"><img src="img/apple10.png" alt="McIntosh Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:McIntosh_with_sticker_by_Lars_Zapf_2006-03-30_cropped.jpg"><img
+                                src="img/apple10.png" alt="McIntosh Apple" width="100px"></a></td>
                     <td class="box">קינטוש (McIntosh): זן בעל קליפה חלקה בצבעי <a href="#">אדום</a> ו<a
                             href="#">ירוק</a>, טעם חמצמץ וגוף עדין. מבשיל לקראת סוף ספטמבר. זהו הזן הפופולרי ביותר ב<a
                             href="#">ניו אינגלנד</a> ומזרח <a href="#">קנדה</a>. זן זה היה השראה לשם המחשב <a
                             href="#">מקינטוש</a> של חברת <a href="#">אפל</a>.</td>
                 </tr>
                 <tr>
-                    <td class="box"><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Pink_Lady_apples.JPG"><img src="img/apple11.png" alt="Pink Lady Apple" width="100px"></a></td>
+                    <td class="box"><a
+                            href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%97#/media/%D7%A7%D7%95%D7%91%D7%A5:Pink_Lady_apples.JPG"><img
+                                src="img/apple11.png" alt="Pink Lady Apple" width="100px"></a></td>
                     <td class="box">פינק ליידי (Pink Lady): זהו זן ושם-מסחרי רשום, תפוח בינוני-גדול, ארומטי מאוד ומתוק.
                         התפוח פותח באוסטרליה כהכלאה של הזנים ליידי ויליאמס וגולדן דלישס. נקרא גם קריפס פינק, על שם
                         האגרונום שפיתח אותו <a href="#">אוסטרליה</a>. צבעו ורוד-אדום-ירוק, והוא גדול יחסית. התפוח גדל
@@ -326,38 +445,39 @@
 
             <div class="flex-container">
                 <div class="flex-item">
-                    <img class="block" src="img/img2/gallery1.png" alt="" width="100px">
+                    <img class="block" src="img/img-gallery/gallery1.png" alt="" width="100px">
                     <p class="phototext">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div class="flex-item">
-                    <img class="block" src="img/img2/gallery2.png" alt="" width="100px">
+                    <img class="block" src="img/img-gallery/gallery2.png" alt="" width="100px">
                     <p class="phototext">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div class="flex-item">
-                    <img class="block" src="img/img2/gallery3.png" alt="" width="100px">
+                    <img class="block" src="img/img-gallery/gallery3.png" alt="" width="100px">
                     <p class="phototext">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div class="flex-item">
-                    <img class="block" src="img/img2/gallery4.png" alt="" width="100px">
+                    <img class="block" src="img/img-gallery/gallery4.png" alt="" width="100px">
                     <p class="phototext">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div class="flex-item">
-                    <img class="block" src="img/img2/gallery5.png" alt="" width="100px">
+                    <img class="block" src="img/img-gallery/gallery5.png" alt="" width="100px">
                     <p class="phototext">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
                 <div class="flex-item">
-                    <img class="block" src="img/img2/gallery6.png" alt="" width="100px">
+                    <img class="block" src="img/img-gallery/gallery6.png" alt="" width="100px">
                     <p class="phototext">Lorem ipsum dolor sit amet consectetur.</p>
                 </div>
             </div>
-        </div>  
+        </div>
 
         <div>
             <h2 id="8">ראו גם [עריכת קוד מקור | עריכה ]</h2>
             <hr>
             <ul>
                 <li><a href="https://he.wikipedia.org/wiki/%D7%AA%D7%A4%D7%95%D7%96" target="_blank">תפוז</a></li>
-                <li><a href="https://www.google.com/search?q=%D7%AA%D7%A4%D7%95%D7%97+%D7%94%D7%A4%D7%99%D7%9C%D7%99%D7%9D&tbm=isch&ved=2ahUKEwjkiaXq-fz2AhUSvCoKHSeiCNwQ2-cCegQIABAA&oq=%D7%AA%D7%A4%D7%95%D7%97+%D7%94%D7%A4%D7%99%D7%9C%D7%99%D7%9D&gs_lcp=CgNpbWcQA1DnCFjTCWCtCmgAcAB4AIABf4gB8QGSAQMwLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0jlMYuTYEpL4qgGnxKLgDQ&bih=929&biw=1920&rlz=1C1JZAP_iwIL916IL916" target="_blank">תפוח הפילים</a></li>
+                <li><a href="https://www.google.com/search?q=%D7%AA%D7%A4%D7%95%D7%97+%D7%94%D7%A4%D7%99%D7%9C%D7%99%D7%9D&tbm=isch&ved=2ahUKEwjkiaXq-fz2AhUSvCoKHSeiCNwQ2-cCegQIABAA&oq=%D7%AA%D7%A4%D7%95%D7%97+%D7%94%D7%A4%D7%99%D7%9C%D7%99%D7%9D&gs_lcp=CgNpbWcQA1DnCFjTCWCtCmgAcAB4AIABf4gB8QGSAQMwLjKYAQCgAQGqAQtnd3Mtd2l6LWltZ8ABAQ&sclient=img&ei=0jlMYuTYEpL4qgGnxKLgDQ&bih=929&biw=1920&rlz=1C1JZAP_iwIL916IL916"
+                        target="_blank">תפוח הפילים</a></li>
             </ul>
 
         </div>
@@ -392,6 +512,8 @@
             </ol>
 
         </div>
+    </main>>
+    <footer class="footer"> 
 
         <hr>
         <p id="11">דף זה נערך לאחרונה ב־22 במרץ 2022, בשעה 21:29.</p>
@@ -406,7 +528,9 @@
             <a href="#">סטטיסטיקות</a>
             <a href="#">הצהרה על עוגיות</a>
         </nav>
-    </main>>  
+
+    </footer>
+    
 
 </body>
 

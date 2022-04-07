@@ -1,10 +1,12 @@
 body{
     text-align: right;
     direction: rtl;
+    font-family: sans-serif;
 }
 
 .box{
-    border: 1px black solid;
+    border: 1px rgb(40, 39, 39) solid;
+    border-radius: 2px;
 } 
 .block{
     display: block;  
@@ -13,28 +15,79 @@ body{
 .center{
     text-align: center;
 }
+.content-box{
+    float: right;
+    margin-bottom: 200px;
+    border-radius: 2px;
+}
+
+.content-photo{
+    display: flex;  
+    margin-top: 700px;
+    flex-wrap: wrap;
+    width: 800px;
+    
+}
+.content-photo-1{
+    width: 300px;
+    
+}
+div.middle nav{
+    text-align: center;  
+    justify-content: space-evenly;
+    width: 800px;
+
+   
+}
+
 .flex-container{
     display: flex;
     margin-bottom: 100px;
+    flex-wrap: wrap;
 }
 .flex-item{
-    min-width: 100px;
-    height: 100px;
-
-}  
+    margin: 40px;
+}
+.fix-photo{
+    margin-left: 170px;
+}
 .fright{
     float: right;
 }
 .fleft{
     float: left;
 }
+.footer{
+    text-align: center;
+    margin-bottom: 200px;
 
+}
+.gray{
+    background-color: rgb(223, 223, 223);
+    
+}
+header{
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info-table{
+    float: left;
+    left: 70px;
+    max-width: 385px;
+    border: 1px solid rgb(81, 80, 80);
+    margin: 10px;
+    border-radius: 2px;
+}    
+   
 .linklist{
     max-width:19%;
     min-width: 150px;
 }
 .middle{
     margin: auto;
+    
 }
 .no-lines a{
     text-decoration: none;
@@ -43,7 +96,8 @@ body{
     text-decoration: underline;
 }  
 .narrow{
-    max-width: 800px;
+    width: 800px;
+    max-width: 900px;
 }
 .photo{
     margin-left: 5px;
@@ -51,4 +105,19 @@ body{
 }  
 .phototext{
     max-width: 100px;
+}
+.table-title{
+    background-color: rgb(130, 232, 164);
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+}
+.value-png{
+    height: 30px;
+    position: relative;
+    top: 5px;
+}
+.top-input{
+    width: 500px;
+    height: 25px;
 }
