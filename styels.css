@@ -46,8 +46,10 @@ div.middle nav{
     flex-wrap: wrap;
 }
 .flex-top-2{
-    margin-right: -350px;
+    flex-grow: 1;
     margin-top: 30px;
+    min-width: 250px;
+
 }
 .flex-top-3{
     font-size: 30px;
@@ -82,7 +84,11 @@ header{
     margin-bottom: 30px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;  
 }
+
+
 
 .info-table{
     float: left;
