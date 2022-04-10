@@ -84,6 +84,9 @@ div.no-lines h2{
     margin-bottom: 200px;
 
 }
+h2{
+    margin-bottom: 50px; 
+}
 
 .gray{
     background-color: rgb(239, 236, 236);
