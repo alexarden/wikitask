@@ -1,5 +1,24 @@
 /* button */
-
+button{
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    /* bottom: 0; */
+    top: -5px;
+    height: 30px;
+    display:inline-block;
+}
+label.button img{
+    position: absolute;
+    right: -40px;
+}
+  button:hover{
+    opacity: 1;
+    cursor: pointer;
+  }
+  label{
+    position: relative;
+  }
 
 
 /* rest of page */
@@ -79,12 +98,12 @@ div table tr td span.fix-3{
     margin-bottom: 100px;
     flex-wrap: wrap;
 }
-.flex-top-2{
+/* .flex-top-2{
     flex-grow: 1;
     margin-top: 30px;
     min-width: 250px;
 
-}
+} */
 .flex-top-3{
     font-size: 30px;
 }
