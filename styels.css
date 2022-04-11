@@ -18,7 +18,32 @@ label.button img{
   }
   label{
     position: relative;
-  }
+}
+
+/* vertical nav bar */
+nav.vertical{
+    position: absolute;
+    margin-right: 100px;
+    padding: 10px 15px;
+    background-color: #f7f6f6;
+    border-radius: 6px;
+}
+nav.vertical div div{
+    margin-bottom: 8px;
+}
+nav.vertical ul{
+    margin-bottom: 2px;
+}
+nav.vertical p{
+    margin-bottom: 2px;
+}
+ @media screen and (max-width:1380px){ 
+     nav.vertical{
+         display: none;
+     }
+}
+
+
 
 
 /* rest of page */
@@ -196,19 +221,7 @@ main div h2{
     height: 25px;
 }
 
-/* vertical nav bar */
-nav.vertical{
-    position: absolute;
-    margin-right: 100px;
-    padding: 10px 15px;
-    background-color: #f7f6f6;
-    border-radius: 6px;
-}
- @media screen and (max-width:1480px){ 
-     nav.vertical{
-         display: none;
-     }
- }
+
 
 
 
